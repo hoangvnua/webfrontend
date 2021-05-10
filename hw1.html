@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style1.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="container">
+    <header>
+      <div class="tag focus">
+        <span>1.</span> Account
+      </div>
+      <div class="tag tag-left">
+        <span>2.</span> Profile
+      </div>
+      <div class="tag tag-right">
+        <span>3.</span> Warning
+      </div>
+      <div class="tag">
+        <span>4.</span> Finish
+      </div>
+      <div class="both"></div>
+    </header>
+
+    <section>
+      <form action="" class="active">
+        <p class="title">
+          Account Information
+        </p>
+
+        <div class="info">
+          User Name *
+        </div>
+        <div class="error">
+          This field is required.
+        </div>
+        <div class="both"></div>
+        <input type="text" id="name" class="checknull">
+        
+        <div class="info">
+          Password *
+        </div>
+        <div class="error">
+          This field is required.
+        </div>
+        <div class="both"></div>
+        <input type="password" id="password" class="checknull">
+        
+        <div class="info">
+          Confirm Password *
+        </div>
+        <div class="error">
+          This field is required.
+        </div>
+        <div class="both"></div>
+        <input type="password" id="confirm" class="checknull">
+
+        <div class="info">(*) Mandatory</div>
+      </form>
+
+      <form action="">
+        <p class="title">
+          Profile Information
+        </p>
+
+        <div class="info">First name *</div>
+        <div class="error">
+          This field is required.
+        </div>
+        <div class="both"></div>
+        <input type="text" id="fname" class="checknull">
+        
+        <div class="info">Last name *</div>
+        <div class="error">
+          This field is required.
+        </div>
+        <div class="both"></div>
+        <input type="text" id="lname" class="checknull">
+        
+        <div class="info">Email *</div>
+        <div class="error">
+          This field is required.
+        </div>
+        <div class="both"></div>
+        <input type="email" id="email" class="checknull">
+
+        <div class="info">Address</div>
+        <div class="error">
+          This field is required.
+        </div>
+        <div class="both"></div>
+        <input type="text" id="" class="checknull">
+
+        <div class="info inf">Age (The warning step will show up if age is less than 18) *</div>
+        <div class="error">
+          This field is required.
+        </div>
+        <div class="both"></div>
+        <input type="number" id="age" class="checknull">
+
+        <div class="info">(*) Mandatory</div>
+      </form>
+
+      <form action="">
+        <p class="title">
+          You are to young
+        </p>
+
+        <div class="info">Please go away ;-)</div>
+      </form>
+
+      <form action="">
+        <div class="title">
+          Terms and Conditions
+        </div>
+
+        <input type="checkbox" id="agree">
+        <span style="color: #113854;">
+          I agree with the Terms and Conditions.
+        </span>
+      </form>
+    </section>
+
+    <footer>
+      <button id="prev">Previous</button>
+      <button id="next">Next</button>
+    </footer>
+
+
+    <script src="js/js1.js"></script>
+  </div>
+</body>
+</html>

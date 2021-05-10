@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/style2.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+<body>
+	<div id="tlt">
+		<h1>Akordeon</h1> <span>Vector PSD</span>
+		<p><i class="fas fa-minus" style="font-size: 15px"></i><i class="fas fa-minus" style="font-size: 15px"></i><i class="fas fa-arrow-right" style="font-size: 15px"></i> A stylo modern accordion</p>
+	</div>
+	
+	<div id="background">
+		<br>
+		<div class="panel">
+			<div class="name" id="name1">
+				<i class="fas fa-plus cong" id="cong1"></i>
+				<i class="fas fa-minus tru" id="tru1"></i>
+				<p class="nametlt">This is an expanded panel</p>
+			</div>
+			<div class="text" id="text1">
+				<p class="lui">
+					Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Consectetur nulla deleniti deserunt nemo quo optio voluptatum, numquam quasi veniam, debitis necessitatibus laudantium laboriosam vero porro ut doloribus unde magni, odit.
+				</p>
+			</div>
+		</div>
+
+		<div class="panel">
+			<div class="name" id="name2">
+				<i class="fas fa-plus cong" id="cong2"></i>
+				<i class="fas fa-minus tru" id="tru2"></i>
+				<p class="nametlt">Second panel</p>
+			</div>
+			<div class="text" id="text2">
+				<p class="lui">
+					Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Consectetur nulla deleniti deserunt nemo quo optio voluptatum, numquam quasi veniam, debitis necessitatibus laudantium laboriosam vero porro ut doloribus unde magni, odit.
+				</p>
+			</div>
+		</div>
+
+		<div class="panel">
+			<div class="name" id="name3">
+				<i class="fas fa-plus cong" id="cong3"></i>
+				<i class="fas fa-minus tru" id="tru3"></i>
+				<p class="nametlt">Third panel</p>
+			</div>
+			<div class="text" id="text3">
+				<p class="lui">
+					Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Consectetur nulla deleniti deserunt nemo quo optio voluptatum, numquam quasi veniam, debitis necessitatibus laudantium laboriosam vero porro ut doloribus unde magni, odit.
+				</p>
+			</div>
+		</div>
+
+		<div class="panel">
+			<div class="name" id="name4">
+				<i class="fas fa-plus cong" id="cong4"></i>
+				<i class="fas fa-minus tru" id="tru4"></i>
+				<p class="nametlt">Fourth panel</p>
+			</div>
+			<div class="text" id="text4">
+				<p class="lui">
+					Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Consectetur nulla deleniti deserunt nemo quo optio voluptatum, numquam quasi veniam, debitis necessitatibus laudantium laboriosam vero porro ut doloribus unde magni, odit.
+				</p>
+			</div>
+		</div>
+		<br>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#background").on("click", "#cong1", function(){
+				$("#text1").css("display", "block");
+				$("#name1").css("color", "#1c681c");
+				$("#name2, #name3, #name4").css("color", "white");
+				$("#text2, #text3, #text4").css("display", "none");
+				$("#tru1, #cong2, #cong3, #cong4").css("display", "block");
+				$("#cong1, #tru2, #tru3, #tru4").css("display", "none");
+			})
+			$("#background").on("click", "#cong2", function(){
+				$("#text2").css("display", "block");
+				$("#name2").css("color", "#1c681c");
+				$("#name1, #name3, #name4").css("color", "white");
+				$("#text1, #text3, #text4").css("display", "none");
+				$("#tru2, #cong1, #cong3, #cong4").css("display", "block");
+				$("#cong2, #tru1, #tru3, #tru4").css("display", "none");
+			})
+			$("#background").on("click", "#cong3", function(){
+				$("#text3").css("display", "block");
+				$("#name3").css("color", "#1c681c");
+				$("#name2, #name1, #name4").css("color", "white");
+				$("#text1, #text2, #text4").css("display", "none");
+				$("#tru3, #cong1, #cong2, #cong4").css("display", "block");
+				$("#cong3, #tru1, #tru2, #tru4").css("display", "none");
+			})
+			$("#background").on("click", "#cong4", function(){
+				$("#text4").css("display", "block");
+				$("#name4").css("color", "#1c681c");
+				$("#name2, #name3, #name1").css("color", "white");
+				$("#text1, #text3, #text2").css("display", "none");
+				$("#tru4, #cong1, #cong2, #cong3").css("display", "block");
+				$("#cong4, #tru1, #tru2, #tru3").css("display", "none");
+			})
+			$("#background").on("click", "#tru1", function(){
+				$("#text1").css("display", "none");
+				$("#name1").css("color", "white");
+				$("#tru1").css("display", "none");
+				$("#cong1").css("display", "block");
+			})
+			$("#background").on("click", "#tru2", function(){
+				$("#text2").css("display", "none");
+				$("#name2").css("color", "white");
+				$("#tru2").css("display", "none");
+				$("#cong2").css("display", "block");
+			})
+			$("#background").on("click", "#tru3", function(){
+				$("#text3").css("display", "none");
+				$("#name3").css("color", "white");
+				$("#tru3").css("display", "none");
+				$("#cong3").css("display", "block");
+			})
+			$("#background").on("click", "#tru4", function(){
+				$("#text4").css("display", "none");
+				$("#name4").css("color", "white");
+				$("#tru4").css("display", "none");
+				$("#cong4").css("display", "block");
+			})
+		})
+	</script>
+</body>
+</html>
