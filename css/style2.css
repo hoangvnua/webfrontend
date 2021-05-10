@@ -1,0 +1,60 @@
+body{
+			background-image: url(https://anhdepfree.com/wp-content/uploads/2018/11/Black-Wallpaper-anh-nen-mau-den-9.jpg);
+			background-size: 100%;
+			background-repeat: no-repeat;
+			color: white;
+		}
+		h1, span{
+			font-family: 'Permanent Marker', cursive;
+			display: inline-block;
+		}
+		#background{
+			width: 80%;
+			margin-left: 10%;
+		}
+		#tlt{
+			width: 76%;
+			margin-left: 13%;
+		}
+		#tlt > span{
+			color: green;
+		}
+		#tlt > p > i{
+			color: green;
+
+		}
+		.name{
+			border: 1px solid black;
+			border-right: none;
+			border-left: none;
+			height: 60px;
+			position: relative;background-color: gray;
+		}
+		.text{
+			height: 150px;
+			position: relative;background-color: gray;
+			display: none;
+		}
+
+		.cong, .tru{
+			font-size: 20px;
+			top: 10px;
+			padding: 10px;
+			position: absolute;
+			left: -25px;
+			color: #1b5425;
+			background-color: #1a961a;
+			border-radius: 5px;
+		}
+		.lui{
+			margin-top: 0px;
+			padding-top: 10px;
+			padding-left: 20px;
+		}
+		.nametlt{
+			padding-left: 20px;
+			font-size: 20px;
+		}
+		.tru{
+			display: none;
+		}
