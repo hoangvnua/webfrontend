@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body * {
+        border: 1px solid black;
+        display: block;
+        margin: 15px;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      div
+      <ul>
+        ul
+        <li>
+          li
+          <span>
+            thẻ span
+          </span>
+        </li>
+        <li>
+          thẻ li
+          <b>Thẻ b</b>
+        </li>
+        <p>Heee</p>
+      </ul>
+    </div>
+
+    <div>
+      <p>
+        thẻ p
+      </p>
+      <h1>
+        thẻ h1
+      </h1>
+      <h3>
+        thẻ h3
+      </h3>
+    </div>
+    <script>
+      $(document).ready(function () {
+        // $("ul").find("li").css({ "border-color": "red" });
+        $("ul").children("li").css({ "border-color": "red" });
+
+        $("p").next().css({ "border-color": "red" });
+        $("p").siblings().css({ color: "red" });
+      });
+    </script>
+  </body>
+</html>
