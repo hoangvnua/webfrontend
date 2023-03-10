@@ -1,0 +1,46 @@
+.bannerwoman{
+	background-image: url(../img/woman.jpg);
+	width: 100%;
+	height: 70vh;
+	background-size: cover;
+}
+.phu{
+	width: 100%;
+	height: 70vh;
+	background-color: black;
+	opacity: 0.2;
+}
+header{
+	z-index: 2;
+}
+.mg{
+	margin: 0;
+}
+.mg > div > img{
+	object-fit: cover;
+}
+.mg > div{
+	text-align: center;
+	margin: 10px 0;
+}
+.hide{
+	display: none;
+}
+#ct{
+	text-align: center;
+	padding-bottom: 60px;
+}
+.bt{
+	border: 1px solid black;
+	background-color: #fff;
+	color: #000;
+	width: 120px;
+	height: 45px;
+}
+.bt:hover{
+	background-color: #000;
+	color: #fff;
+}
+#bt2{
+	display: none;
+}

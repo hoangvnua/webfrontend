@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoang LuonVuiTuoi</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js" integrity="sha512-UdIMMlVx0HEynClOIFSyOrPggomfhBKJE28LKl8yR3ghkgugPnG6iLfRfHwushZl1MOPSY6TsuBDGPK2X4zYKg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="shortcut icon" href="img/h.ico">
+  <link rel="stylesheet" href="css/csskhung.css">
+  <link rel="stylesheet" type="text/css" href="css/cssnew.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+  <script>
+    AOS.init();
+  </script>
+  <div class="wrapper">
+    <header>
+      <div class="inner-header container">
+        <a href="index.html" class="logo">LuonVuiTuoi</a>
+        <nav>
+          <ul id="main-menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="new.html">WHAT'S NEW</a></li>
+            <li>
+              <a href="shop.html" data-toggle="dropdown">SHOP</a>
+              <ul class="dropdown-menu">
+                  <li><a href="man.html">MAN</a></li>
+                  <li><a href="woman.html">WOMAN</a></li>
+                </ul>
+            </li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+          </ul>
+        </nav>
+        <i class="fas fa-bars menu"></i>
+      </div>
+    </header>
+    <div id="bannernew">
+      <h3>New product</h3>
+    </div>
+    </div>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $(window).scroll(function(){
+        if($(this).scrollTop()){
+          $('header').addClass("sticky")
+        } else {
+          $('header').removeClass("sticky")
+        }
+      })
+      $(".menu").on("click", function(){
+        $('nav').slideToggle()
+        
+      })
+    })
+  </script>
+
+      <ul class="btn">
+        <li data-aos="zoom-out-right"><b>All</b></li>
+        <li data-aos="zoom-out-up">Giày</li>
+        <li data-aos="zoom-out-down">Phụ Kiện</li>
+        <li data-aos="zoom-out-up">Áo</li>
+        <li data-aos="zoom-out-down">Quần</li>
+        <li data-aos="zoom-out-left">Túi</li>
+      </ul>
+
+  <div class="container pd">
+    <div class="row anh">
+      <div class="col-12 col-md-6 col-lg-4 tui" data-aos="zoom-out-right" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/t1.png" alt="" width="100%">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,200.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 tui" data-aos="zoom-out-up" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/t2.png" alt="" width="100%">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,200.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 tui" data-aos="zoom-out-left" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/t3.png" alt="" width="100%">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,200.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 tui" data-aos="zoom-out-down" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/t4.png" alt="" width="100%">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,200.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 pk" data-aos="zoom-out-down" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/p1.png" width="100%" alt="">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,200.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 pk" data-aos="zoom-out-down" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/p2.png" width="100%" alt="">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,200.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 pk" data-aos="zoom-out-down" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/p3.png" width="100%" alt="">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,200.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 pk" data-aos="zoom-out-down" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/p4.png" width="100%" alt="">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,200.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 pk" data-aos="zoom-out-down" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/p5.png" width="100%" alt="">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,600.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 pk" data-aos="zoom-out-down" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/p6.png" width="100%" alt="">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,600.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 pk" data-aos="zoom-out-down" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/p7.png" width="100%" alt="">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,600.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 pk" data-aos="zoom-out-down" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/p8.png" width="100%" alt="">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,600.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 pk" data-aos="zoom-out-down" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/p9.png" width="100%" alt="">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,600.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 pk" data-aos="zoom-out-down" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/p10.png" width="100%" alt="">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,600.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 ao" data-aos="zoom-out-down" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/a1.png" width="100%" alt="">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,600.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 ao" data-aos="zoom-out-down" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/a2.png" width="100%" alt="">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,800.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 ao" data-aos="zoom-out-down" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/a3.png" width="100%" alt="">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,800.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 ao" data-aos="zoom-out-down" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/a4.png" width="100%" alt="">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,800.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 ao" data-aos="zoom-out-down" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/a5.png" width="100%" alt="">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,800.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 ao" data-aos="zoom-out-down" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/a6.png" width="100%" alt="">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,800.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 ao" data-aos="zoom-out-down" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/a7.png" width="100%" alt="">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,800.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 quan" data-aos="zoom-out-down" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/q1.png" width="100%" alt="">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,800.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 quan" data-aos="zoom-out-down" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/q2.png" width="100%" alt="">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,800.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 quan" data-aos="zoom-out-down" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/q3.png" width="100%" alt="">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,800.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 quan" data-aos="zoom-out-down" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/q4.png" width="100%" alt="">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,800.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 giay" data-aos="zoom-out-down" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/g1.png" width="100%" alt="">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,800.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 giay" data-aos="zoom-out-down" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/g2.png" width="100%" alt="">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,800.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 giay" data-aos="zoom-out-down" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/g3.png" width="100%" alt="">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,800.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 giay" data-aos="zoom-out-down" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/g4.png" width="100%" alt="">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,800.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 giay" data-aos="zoom-out-down" data-aos-duration="3000">
+        <div class="bd">
+          <img src="img/g5.png" width="100%" alt="">
+          <div class="phu">
+            <i class="fas fa-heart"></i>
+            
+            <h5>Lorem ipsum dolor sit.</h5>
+            <span>$1,800.00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.btn > li').eq(0).on('click', function(){
+        $('.anh > div').show(1000)
+      })
+      
+      $('.btn > li').eq(1).on('click', function(){
+        $('.giay').show(1000)
+        $('.pk, .ao, .quan, .tui').hide(1000)
+      })
+      $('.btn > li').eq(2).on('click', function(){
+        $('.pk').show(1000)
+        $('.quan, .ao, .tui, .giay').hide(1000)
+      })
+      $('.btn > li').eq(3).on('click', function(){
+        $('.ao').show(1000)
+        $('.pk, .giay, .quan, .tui').hide(1000)
+      })
+      $('.btn > li').eq(4).on('click', function(){
+        $('.quan').show(1000)
+        $('.pk, .giay, .ao, .tui').hide(1000)
+      })
+      $('.btn > li').eq(5).on('click', function(){
+        $('.tui').show(1000)
+        $('.pk, .ao, .quan, .giay').hide(1000)
+      })
+    })
+  </script>
+
+  <footer class="container-fluid">
+    <div class="container pd">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+          <a class="logo" href="#">LuonVuiTuoi</a>
+          <p>Express your individuality & style, experience class with limited models that can only be you.</p>
+          
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+          <h5>CONTACT INFOR</h5>
+          <hr class="hr2">
+          <p><i class="fas fa-map-pin"></i> 01 DaoNguyen A TrauQuy GiaLam HaNoi</p>
+          <p><i class="fas fa-clock"></i> Mon-Sat:7:00-18:00</p>
+          <p><i class="fas fa-mobile"></i> 0241 1234 567</p>
+          <p><i class="fas fa-envelope"></i> nvhoang.vnua@gmail.com</p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 imgft">
+          <h5>GALLERY</h5>
+          <hr class="hr2">
+          <img src="img/balo.jpg" alt="..." class="rounded-0" width="90x" height="90px">
+          <img src="img/aophong.jpg" alt="..." class="rounded-0" width="90px" height="90px">
+          <img src="img/somi.jpg" alt="..." class="rounded-0" width="90px" height="90px">
+          <img src="img/giày.jpg" alt="..." class="rounded-0" width="90px" height="90px">
+          <img src="img/kinh.jpg" alt="..." class="rounded-0" width="90px" height="90px">
+          <img src="img/quan.jpg" alt="..." class="rounded-0" width="90px" height="90px">
+        </div>
+      </div>
+    </div>
+    <div class="col-12 banquyen" align="center">
+      <span>Copyright © 2021 Designed by <a href="https://www.instagram.com/sonhoangnn/">Nguyễn Văn Hoàng</a>.</span>
+    </div>
+  </footer>
+</body>
+</html>

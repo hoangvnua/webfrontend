@@ -1,0 +1,101 @@
+header{
+  position: relative;
+  padding: 0;
+  background-color: white;
+}
+.pd{
+     padding: 60px 0;
+}
+.hiden{
+     overflow-x: visible;
+}
+.text{
+     margin-top: 8%;
+}
+.text > h3{
+     text-align: center;
+}
+.bg{
+     background-color: #000;
+}
+form > div{
+     margin-top: 20px;
+}
+#sbm{
+     background: red;
+     border: none;
+     padding: 10px 50px;
+     color: #fff;
+}
+#sbm:hover{
+     background-color: gray;
+     color: black;
+}
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 24%;
+  padding: 0 4%;
+  transition: 0.4s;
+  -webkit-transform: rotate(-10deg);
+}
+.column:hover{
+     -webkit-transform: rotate(0deg);
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  font-size: 70px;
+  border-radius: 15px;
+}
+.card > a{
+     color: #fff;
+}
+.yt > a{
+     color: red;
+}
+.fb{
+     background-color: blue;
+     color: #fff;
+}
+.int{
+     background-image: radial-gradient(farthest-corner at 0% 100%, orange, red, purple, blue);
+}
+.tw{
+     background-color: blue;
+     color: #fff;
+}
+.banquyen{
+     color: #fff;
+     border-top: 1px solid #fff;
+}
+label{
+     color: #fff;
+}
+@media(max-width: 768px){
+     .bando{
+          display: none;
+     }
+}

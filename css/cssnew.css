@@ -1,0 +1,73 @@
+#bannernew{
+	background-color: #870000;
+	background-size: cover;
+	height: 40vh;
+	width: 100%;
+}
+#bannernew > h3{
+	text-align: center;
+	padding-top: 10%;
+	color: #fff;
+}
+.phu > a{
+	position: absolute;
+	right: 40px;
+	font-size: 50px;
+	bottom: 10px;
+}
+.anh{
+	margin: 0;
+}
+.bd > img{
+	background-color: #eeeeee;
+	cursor: zoom-in;
+	object-fit: cover;
+	height: 280px;
+}
+.anh > div:hover .bd{
+	border: 2px solid #000;
+}
+.bd{
+
+	padding: 0 10px;
+	margin: 10px 0;
+}
+.pd{
+	padding: 50px 0;
+}
+.btn{
+	margin-top: 50px;
+	text-align: left;
+	justify-content: center;
+	display: flex;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+
+}
+.btn > li{
+	padding: 20px 40px;
+}
+
+h4 > i{
+	position: absolute;
+	right: 10px;
+}
+@media (max-width: 991px){
+	.btn{
+		font-size: 20px;
+	}
+	.btn > li{
+		padding: 20px 20px;
+	}
+	#bannernew > h3{
+		display: none;
+	}
+}
+@media (max-width: 576px){
+	.btn{
+		font-size: 13px;
+	}
+	.btn > li{
+		padding: 20px 10px;
+	}
+}
